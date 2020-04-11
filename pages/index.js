@@ -3,12 +3,13 @@ import Head from 'next/head';
 import Nav from '../components/nav';
 
 const Home = () => {
-  var windowIsDefined = typeof window !== 'undefined';
-  if (windowIsDefined) {
-    if (!window.tauri) {
-      require('../src-tauri/tauri.js'); // change this path as needed
-    }
-  }
+  console.log('LOAD HOME PAGE HERE');
+  // var windowIsDefined = typeof window !== 'undefined';
+  // if (windowIsDefined) {
+  //   if (!window.tauri) {
+  //     require('../src-tauri/tauri.js'); // change this path as needed
+  //   }
+  // }
 
   return (
     <div>
@@ -17,7 +18,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Nav />
+      {/* <Nav /> */}
 
       <div className="hero">
         <h1 className="title">Welcome to Next.js!</h1>
