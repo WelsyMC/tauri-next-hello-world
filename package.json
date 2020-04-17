@@ -7,16 +7,12 @@
     "build": "next build && next export",
     "start": "next start",
     "tauri:prod": "tauri",
-    "tauri:source": "node ../../../../cli/tauri.js/bin/tauri",
-    "tauri:source:init": "yarn tauri:source init --tauriPath ../../../../tauri",
-    "tauri:prod:init": "yarn tauri:prod init",
-    "tauri:source:dev": "yarn tauri:source dev",
-    "tauri:prod:dev": "yarn tauri:prod dev",
-    "tauri:source:build": "yarn tauri:source build",
-    "tauri:prod:build": "yarn tauri:prod build"
+    "tauri:init": "tauri init",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
   },
   "dependencies": {
-    "next": "9.3.4",
+    "next": "9.3.5",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "tauri": "^0.5.2"
