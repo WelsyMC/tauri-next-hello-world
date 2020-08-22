@@ -1,24 +1,5 @@
-## Running Example
+## NextJS Tauri Hello World
 
-Ensure you have setup and installed all the project dependencies.
+> THE CODE IN THIS REPO DOES NOT WORK
 
-```
-npm install -g tauri
-git clone https://github.com/tauri-apps/tauri
-cd examples/react/next.js
-yarn
-cargo install tauri-bundler
-```
-
-### Development
-
-```
-yarn dev & tauri dev
-```
-
-### Production
-
-```
-yarn build
-tauri build
-```
+If you're looking for a Node/React example, check out [this](https://github.com/lukethacoder/tauri-react-example) repo instead.
